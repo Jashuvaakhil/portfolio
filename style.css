@@ -736,3 +736,126 @@ body {
     text-shadow: 0 0 20px #00f2ff, 0 0 30px #00f2ff;
   }
 }
+
+
+/* mobile view  */
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 5%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    position: static;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 5% 0;
+    text-align: center;
+  }
+
+  .home-content h1 {
+    font-size: 36px;
+  }
+
+  .home-content h3 {
+    font-size: 24px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .profile img {
+    width: 250px;
+    height: 270px;
+    margin-top: 20px;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .about-img img {
+    margin: 0 auto 20px auto;
+    width: 250px;
+    height: 270px;
+  }
+
+  .about-text {
+    margin: 0;
+  }
+
+  .about-text h2 {
+    font-size: 36px;
+  }
+
+  .about-text h4 {
+    font-size: 20px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .edu-container {
+    padding: 0 20px;
+  }
+
+  .edu-card {
+    width: 100%;
+  }
+
+  .skill {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .heading1 {
+    margin: 0 0 20px 0;
+  }
+
+  .Technical-bars {
+    width: 100%;
+  }
+
+  .radial-bars {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .radial-bar {
+    width: 100%;
+    height: 150px;
+  }
+
+  .Contact,
+  .contact-section {
+    padding: 20px;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .contact-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .contact-socials a {
+    margin: 10px;
+  }
+}
