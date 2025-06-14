@@ -740,6 +740,10 @@ body {
 
 /* mobile view  */
 
+.home {
+  margin-top: 80px; 
+}
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
