@@ -739,123 +739,100 @@ body {
 
 
 /* mobile view  */
+
 @media (max-width: 768px) {
   .header {
-    padding: 10px 5%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    padding: 10px 5%;
   }
-
   .navbar {
     position: static;
-    padding: 10px 0;
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
   }
-
   .navbar a {
-    margin: 10px 0;
     font-size: 20px;
+    margin: 10px 0;
   }
 
   .home {
     flex-direction: column;
     align-items: center;
-    padding: 100px 5% 0;
+    padding: 100px 5% 50px;
     text-align: center;
+    margin-top: 80px; 
   }
-
-  .home-content h1 {
-    font-size: 36px;
-  }
-
-  .home-content h3 {
-    font-size: 24px;
-  }
-
-  .home-content p {
-    font-size: 16px;
-  }
-
   .profile img {
     width: 250px;
-    height: 270px;
-    margin-top: 20px;
+    height: 280px;
   }
 
   .about {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
+    display: block;
+    padding: 20px;
     text-align: center;
   }
-
   .about-img img {
-    margin: 0 auto 20px auto;
     width: 250px;
-    height: 270px;
+    height: 280px;
+    margin: auto 0 20px;
   }
-
   .about-text {
-    margin: 0;
-  }
-
-  .about-text h2 {
-    font-size: 36px;
-  }
-
-  .about-text h4 {
-    font-size: 20px;
-  }
-
-  .about-text p {
-    font-size: 16px;
+    margin: 0 auto;
+    padding: 0 10px;
   }
 
   .edu-container {
-    padding: 0 20px;
-  }
-
-  .edu-card {
     width: 100%;
+    padding: 10px;
+  }
+  .edu-card {
+    max-width: 100%;
   }
 
   .skill {
-    margin-left: 0;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 20px 10px;
   }
-
-  .heading1 {
-    margin: 0 0 20px 0;
-  }
-
-  .Technical-bars {
-    width: 100%;
-  }
-
   .radial-bars {
+    display: flex;
     flex-direction: column;
-    margin-left: 0;
     align-items: center;
+    margin: 0;
   }
-
   .radial-bar {
     width: 100%;
+    margin-bottom: 20px;
     height: 150px;
   }
 
-  .Contact,
   .contact-section {
-    padding: 20px;
-    height: auto;
-    flex-direction: column;
+    padding: 60px 10px;
   }
-
   .contact-container {
-    width: 100%;
+    width: 90%;
     padding: 20px;
   }
-
+  .contact-info p {
+    font-size: 0.9rem;
+  }
   .contact-socials a {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
     margin: 10px;
+  }
+  .thankyou {
+    font-size: 1.3rem;
+  }
+
+  .btn-box {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 20px;
   }
 }
