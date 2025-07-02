@@ -348,6 +348,7 @@ body {
   text-align: right;
 }
 
+
 .progress-line.html span {
   animation: fillBar1 3s ease-in-out forwards infinite;
 }
@@ -422,11 +423,10 @@ body {
 .radial-bars {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-evenly;
+  flex-direction: row;
   align-items: flex-start;
-  margin-left: 100px;
+  padding-right: 300px;
+  gap: 5em;
 }
 .radial-bars .radial-bar {
   width: 50%;
@@ -520,7 +520,7 @@ body {
 /* contact */
 .cont {
   text-align: center;
-  font-weight: ;
+  font-weight: 500;
 }
 .Contact {
   background-color: black;
@@ -735,108 +735,4 @@ body {
   to {
     text-shadow: 0 0 20px #00f2ff, 0 0 30px #00f2ff;
   }
-}
-
-
-/* mobile view  */
-
-.home {
-  margin-top: 80px; 
-}
-
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 5%;
-  }
-  .navbar {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    padding: 10px 0;
-  }
-  .navbar a {
-    font-size: 20px;
-    margin: 10px 0;
-  }
-
-  .home {
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 5% 50px;
-    text-align: center;
-    margin-top: 80px; 
-  }
-  .profile img {
-    width: 250px;
-    height: 280px;
-  }
-
-  .about {
-    display: block;
-    padding: 20px;
-    text-align: center;
-  }
-  .about-img img {
-    width: 250px;
-    height: 280px;
-    margin: auto 0 20px;
-  }
-  .about-text {
-    margin: 0 auto;
-    padding: 0 10px;
-  }
-
-  .edu-container {
-    width: 100%;
-    padding: 10px;
-  }
-  .edu-card {
-    max-width: 100%;
-  }
-
-  .skill {
-    margin: 0 auto;
-    padding: 20px 10px;
-  }
-  .radial-bars {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  }
-  .radial-bar {
-    width: 100%;
-    margin-bottom: 20px;
-    height: 150px;
-  }
-
-  .contact-section {
-    padding: 60px 10px;
-  }
-  .contact-container {
-    width: 90%;
-    padding: 20px;
-  }
-  .contact-info p {
-    font-size: 0.9rem;
-  }
-  .contact-socials a {
-    width: 35px;
-    height: 35px;
-    font-size: 16px;
-    margin: 10px;
-  }
-  .thankyou {
-    font-size: 1.3rem;
-  }
-
-  .btn-box {
-    padding: 10px 20px;
-    font-size: 14px;
-    border-radius: 20px;
-  }
 }
